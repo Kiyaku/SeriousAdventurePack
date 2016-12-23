@@ -1,0 +1,36 @@
+{
+  "name": "Time to get real",
+  "quests": [
+    {
+      "uuid": "313bcf52-a704-4f73-af81-5a38b58c4272",
+      "name": "Unnamed",
+      "x": 71,
+      "y": 41,
+      "icon": {
+        "id": "minecraft:apple"
+      },
+      "prerequisites": [
+        "75e2d948-9671-4a16-8259-a37635d5e012"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:apple"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "mekanismtools:BronzeHoe"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

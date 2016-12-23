@@ -1,0 +1,31 @@
+{
+    name: "default",
+    description: "default",
+    sets: [
+        {
+            name: "default",
+            operations: [
+                //{
+                //    __comment: "You can add starting item sets to the default set, as well as the peaceful, easy, normal, and hard difficulty sets",
+                //    __result: "Gives the player a diamond sword when starting off.",
+                //    type: "addStarterItem",
+                //    what: "akashictome:tome:0:10:={\"akashictome:data\": {tconstruct: {id: \"tconstruct:book\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"tconstruct\"}, Damage: 0 as short}, guideapi: {id: \"guideapi:ItemGuideBook\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"guideapi\", \"G-API_Category_Page\": 0}, Damage: 1 as short}, guideapi1: {id: \"guideapi:ItemGuideBook\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"guideapi1\", \"G-API_Category_Page\": 0, \"G-API_Entry_Page\": 0, \"G-API_Page\": 0}, Damage: 0 as short}, botania: {id: \"botania:lexicon\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"botania\"}, Damage: 0 as short}, spiceoflife: {id: \"spiceoflife:bookfoodjournal\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"spiceoflife\"}, Damage: 0 as short}, villagebox: {id: \"villagebox:village_book\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"villagebox\"}, Damage: 0 as short}, extrautils2: {id: \"extrautils2:Book\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"extrautils2\"}, Damage: 0 as short}, environmentaltech: {id: \"environmentaltech:digital_guide\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"environmentaltech\"}, Damage: 0 as short}, vc: {id: \"vc:guidebook_main\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"vc\"}, Damage: 0 as short}}}"
+                //},
+                {
+                    // You can also specify an 'otherwise' which will be matched and applied if the original drop isn't matched:
+                    type: "setBlockDrops",
+                    what: "substratum:ore:8",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "substratum:nugget:19",
+                            min: 1,
+                            max: 1,
+                            chance: 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+  "backups": {
+    "backups_to_keep": 12,
+    "display_file_size": true,
+    "enabled": false,
+    "backup_timer": 2.0,
+    "compression_level": 1,
+    "folder": "",
+    "use_separate_thread": true
+  },
+  "commands": {
+    "chunks": true,
+    "trash_can": true,
+    "ranks": true,
+    "view_crash": true,
+    "js": true,
+    "warp": true,
+    "tpl": true,
+    "inv": true,
+    "back": true,
+    "server_info": true,
+    "spawn": true,
+    "home": true,
+    "kickme": true
+  },
+  "general": {
+    "auto_restart": false,
+    "chat": {
+      "substitutes": [
+        {
+          "shrug": "¯\\_(ツ)_/¯"
+        }
+      ],
+      "substitute_prefix": "!",
+      "enable_links": true
+    },
+    "restart_timer": 0.0,
+    "server_info": {
+      "difficulty": true,
+      "mode": true
+    }
+  },
+  "world": {
+    "chunk_loading": false,
+    "blocked_entities": [],
+    "chunk_claiming": true,
+    "safe_spawn": false,
+    "spawn_area_in_sp": false
+  },
+  "webapi": {
+    "update_interval": 5,
+    "enabled": false,
+    "file_location": ""
+  },
+  "login": {
+    "motd": [],
+    "enable_motd": true,
+    "enable_starting_items": true,
+    "starting_items": [
+      "minecraft:torch 1 0",
+      "akashictome:tome 1 0",
+      "minecraft:apple 4 0"
+    ]
+  },
+  "ranks": {
+    "override_chat": true,
+    "override_commands": true,
+    "enabled": false
+  }
+}
