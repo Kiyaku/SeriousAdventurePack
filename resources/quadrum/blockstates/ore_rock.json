@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "variant=ore_rock_bauxite": { "model": "quadrum:ore_rock_bauxite" },
+    "variant=ore_rock_nickel": { "model": "quadrum:ore_rock_nickel" }
+  }
+}
