@@ -1,0 +1,106 @@
+[
+  {
+    "block": {
+      "name": "base:aluminum.ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "quadrum:ore_rock",
+        "amount": 2,
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "base:nickel.ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "quadrum:ore_rock",
+        "amount": 2,
+        "meta": 1
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "minecraft:iron_ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "survivalist:rock_ore",
+        "amount": 2,
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "minecraft:gold_ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "survivalist:rock_ore",
+        "amount": 2,
+        "meta": 1
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "base:copper.ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "survivalist:rock_ore",
+        "amount": 2,
+        "meta": 2
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "base:lead.ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "survivalist:rock_ore",
+        "amount": 2,
+        "meta": 4
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "base:silver.ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "survivalist:rock_ore",
+        "amount": 2,
+        "meta": 5
+      }
+    ]
+  },
+  {
+    "block": {
+      "name": "base:tin.ore",
+      "meta": 0
+    },
+    "drops": [
+      {
+        "name": "survivalist:rock_ore",
+        "amount": 2,
+        "meta": 3
+      }
+    ]
+  }
+]

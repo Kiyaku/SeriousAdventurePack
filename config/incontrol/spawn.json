@@ -1,0 +1,6 @@
+[
+{
+    "mob": ["Sheep", "Chicken", "Cow", "imc.WildSheep", "imc.WildCow", "imc.WildChicken"],
+    "result": "deny"
+  }
+]

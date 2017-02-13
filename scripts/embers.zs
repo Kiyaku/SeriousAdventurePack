@@ -20,6 +20,16 @@ Melter.addOreRecipe(<ore:ingotIron>, <liquid:iron> * 144, false, false);
 Melter.addOreRecipe(<ore:blockIron>, <liquid:iron> * 1296, false, false);
 Melter.addOreRecipe(<ore:ingotSteel>, <liquid:steel> * 144, false, false);
 
+// -- Rock ores
+Melter.addOreRecipe(<ore:rockOreIron>, <liquid:iron> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreGold>, <liquid:gold> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreCopper>, <liquid:copper> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreTin>, <liquid:tin> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreSilver>, <liquid:silver> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreLead>, <liquid:lead> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreNickel>, <liquid:nickel> * 96, false, false);
+Melter.addOreRecipe(<ore:rockOreAluminum>, <liquid:aluminum> * 96, false, false);
+
 
 // Stamper
 // -- IE Casts

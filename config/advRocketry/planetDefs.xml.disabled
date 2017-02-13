@@ -1,0 +1,21 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+        <planet name="Planet B">
+            <hasRings>true</hasRings>
+            <fogColor>0xCDFFFF</fogColor>
+            <skyColor>0xCDFFFF</skyColor>
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>80</gravitationalMultiplier>
+            <orbitalDistance>160</orbitalDistance>
+            <orbitalTheta>180</orbitalTheta>
+            <rotationalPeriod>36000</rotationalPeriod>
+            <biomeIds>2,10</biomeIds>          
+            <planet name="Planet B Moon">
+                <gasGiant>true</gasGiant>
+                <orbitalDistance>70</orbitalDistance>
+                <orbitalTheta>130</orbitalTheta>
+                <oribtalPhi>30</oribtalPhi>             
+            </planet>
+        </planet>       
+    </star>
+</galaxy>

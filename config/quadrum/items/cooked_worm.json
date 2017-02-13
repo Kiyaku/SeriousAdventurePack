@@ -1,0 +1,12 @@
+{
+  "name": "cooked_worm",
+  "creative_tab": "food",
+  "edible": {
+  	"default" : {
+		  "health": 0,
+		  "saturation": 1,
+		  "duration": 20,
+		  "can_always_eat": false
+	  }
+	}
+}

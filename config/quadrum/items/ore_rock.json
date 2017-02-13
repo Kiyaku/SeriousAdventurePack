@@ -1,0 +1,12 @@
+{
+  "name": "ore_rock",
+  "creative_tab": "materials",
+  "variants": ["ore_rock_bauxite", "ore_rock_nickel"],
+  "lore": {
+	  "default": ["genericTag"],
+	  "variants": {
+	    "gold": ["rockOreBauxite"],
+	    "iron": ["rockOreNickel"]
+	  }
+	}
+}

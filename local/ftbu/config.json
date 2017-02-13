@@ -13,7 +13,6 @@
     "trash_can": true,
     "ranks": true,
     "view_crash": true,
-    "js": true,
     "warp": true,
     "tpl": true,
     "inv": true,
@@ -25,20 +24,20 @@
   },
   "general": {
     "auto_restart": false,
+    "server_info": {
+      "admin_quick_access": true,
+      "difficulty": true,
+      "mode": true
+    },
     "chat": {
       "substitutes": [
         {
           "shrug": "¯\\_(ツ)_/¯"
         }
       ],
-      "substitute_prefix": "!",
-      "enable_links": true
+      "substitute_prefix": "!"
     },
-    "restart_timer": 0.0,
-    "server_info": {
-      "difficulty": true,
-      "mode": true
-    }
+    "restart_timer": 0.0
   },
   "world": {
     "chunk_loading": false,
@@ -46,6 +45,12 @@
     "chunk_claiming": true,
     "safe_spawn": false,
     "spawn_area_in_sp": false
+  },
+  "ranks": {
+    "override_chat_short_urls": true,
+    "override_chat": true,
+    "override_commands": true,
+    "enabled": false
   },
   "webapi": {
     "update_interval": 5,
@@ -61,10 +66,5 @@
       "akashictome:tome 1 0",
       "minecraft:apple 4 0"
     ]
-  },
-  "ranks": {
-    "override_chat": true,
-    "override_commands": true,
-    "enabled": false
   }
 }

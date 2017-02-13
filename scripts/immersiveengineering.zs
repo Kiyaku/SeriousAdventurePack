@@ -2,14 +2,16 @@ import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
 import minetweaker.data.IData;
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.Refinery;
+import mods.immersiveengineering.Crusher;
 
 // Tool Parts
 val sponge = <minecraft:sponge>;
 val firewood = <tconstruct:firewood:1>;
 
-var materials = [{Material: "iron"}, {Material: "prismarine"}, {Material: "endstone"}, {Material: "paper"}, {Material: "sponge"}, {Material: "firewood"}, {Material: "slime"}, {Material: "blueslime"}, {Material: "magmaslime"}, {Material: "netherrack"}, {Material: "obsidian"}, {Material: "knightslime"}, {Material: "pigiron"}, {Material: "cobalt"}, {Material: "ardite"}, {Material: "manyullyn"}, {Material: "copper"}, {Material: "lead"}, {Material: "silver"}, {Material: "electrum"}, {Material: "steel"}, {Material: "treatedwood"}, {Material: "constantan"}, {Material: "bronze"}, {Material: "corrupted"}, {Material: "soulforgedsteel"}, {Material: "hellfire"}] as IData[];
+var materials = [{Material: "wood"}, {Material: "stone"}, {Material: "flint"}, {Material: "bone"}, {Material: "cactus"}, {Material: "iron"}, {Material: "prismarine"}, {Material: "endstone"}, {Material: "paper"}, {Material: "sponge"}, {Material: "firewood"}, {Material: "slime"}, {Material: "blueslime"}, {Material: "magmaslime"}, {Material: "netherrack"}, {Material: "obsidian"}, {Material: "knightslime"}, {Material: "pigiron"}, {Material: "cobalt"}, {Material: "ardite"}, {Material: "manyullyn"}, {Material: "copper"}, {Material: "lead"}, {Material: "silver"}, {Material: "electrum"}, {Material: "steel"}, {Material: "treatedwood"}, {Material: "constantan"}, {Material: "bronze"}, {Material: "corrupted"}, {Material: "soulforgedsteel"}, {Material: "hellfire"}] as IData[];
 
-var resource = [<ore:ingotIron>, <ore:blockPrismarine>, <ore:endstone>, <ore:paper>, <minecraft:sponge>, <tconstruct:firewood:1>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalMagma>, <ore:netherrack>, <ore:obsidian>, <ore:ingotKnightslime>, <ore:ingotPigiron>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotCopper>, <ore:ingotLead>, <ore:ingotSilver>, <ore:ingotElectrum>, <ore:ingotSteel>, <ore:plankTreatedWood>, <ore:ingotConstantan>, <ore:ingotBronze>, <ore:ingotCorrupted>, <ore:ingotSoulforgedSteel>, <ore:ingotHellfire>] as IIngredient[];
+var resource = [<ore:plankWood>, <ore:cobblestone>, <ore:itemFlint>, <ore:bone>, <ore:blockCactus>, <ore:ingotIron>, <ore:blockPrismarine>, <ore:endstone>, <ore:paper>, <minecraft:sponge>, <tconstruct:firewood:1>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalMagma>, <ore:netherrack>, <ore:obsidian>, <ore:ingotKnightslime>, <ore:ingotPigiron>, <ore:ingotCobalt>, <ore:ingotArdite>, <ore:ingotManyullyn>, <ore:ingotCopper>, <ore:ingotLead>, <ore:ingotSilver>, <ore:ingotElectrum>, <ore:ingotSteel>, <ore:plankTreatedWood>, <ore:ingotConstantan>, <ore:ingotBronze>, <ore:ingotCorrupted>, <ore:ingotSoulforgedSteel>, <ore:ingotHellfire>] as IIngredient[];
 
 for i, mat in materials {
 	MetalPress.addRecipe(<tconstruct:tool_rod>.withTag(mat), resource[i] * 1, <sapadditions:itemiecast:0>, 500, 1);
@@ -120,3 +122,19 @@ recipes.addShaped(<immersiveengineering:stoneDecoration:1>, [[<immersiveengineer
 
 // Smeltery
 //mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_ingot>);
+
+
+// Refinery
+Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:plantoil> * 8, <liquid:bio.ethanol> * 8, 208);
+
+
+// Crusher
+// -- Rock Ores
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:2>, <survivalist:rock_ore:0>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:3>, <survivalist:rock_ore:1>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:5>, <survivalist:rock_ore:2>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:6>, <survivalist:rock_ore:3>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:7>, <survivalist:rock_ore:4>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:8>, <survivalist:rock_ore:5>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:11>, <quadrum:ore_rock:0>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<base:dust:10>, <quadrum:ore_rock:1>, 8000);

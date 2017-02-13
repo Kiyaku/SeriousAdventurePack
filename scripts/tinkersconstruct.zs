@@ -43,6 +43,7 @@ Casting.removeTableRecipe(<minecraft:iron_ingot>, <liquid:iron>, <tconstruct:cas
 recipes.remove(<tconstruct:stone_torch>);
 recipes.remove(<tconstruct:tooltables:2>);
 recipes.remove(<tconstruct:smeltery_controller>);
+recipes.remove(<tconstruct:casting:*>);
 
 // Reinforcement
 recipes.remove(<tconstruct:materials:14>);

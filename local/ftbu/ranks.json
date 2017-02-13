@@ -1,17 +1,19 @@
 {
-  "default_rank": "Player",
+  "default_ranks": {
+    "player": "player",
+    "op": "op"
+  },
   "ranks": {
-    "Player": {
-      "parent": "",
-      "color": "white",
-      "prefix": "",
-      "badge": ""
+    "player": {
+      "parent": "builtin_player",
+      "permissions": [],
+      "config": {}
     },
-    "Admin": {
-      "parent": "Player",
-      "color": "dark_green",
-      "prefix": "",
-      "badge": ""
+    "op": {
+      "parent": "builtin_op",
+      "syntax": "<&2$name&r> ",
+      "permissions": [],
+      "config": {}
     }
   }
 }

@@ -12,16 +12,98 @@
                 //    what: "akashictome:tome:0:10:={\"akashictome:data\": {tconstruct: {id: \"tconstruct:book\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"tconstruct\"}, Damage: 0 as short}, guideapi: {id: \"guideapi:ItemGuideBook\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"guideapi\", \"G-API_Category_Page\": 0}, Damage: 1 as short}, guideapi1: {id: \"guideapi:ItemGuideBook\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"guideapi1\", \"G-API_Category_Page\": 0, \"G-API_Entry_Page\": 0, \"G-API_Page\": 0}, Damage: 0 as short}, botania: {id: \"botania:lexicon\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"botania\"}, Damage: 0 as short}, spiceoflife: {id: \"spiceoflife:bookfoodjournal\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"spiceoflife\"}, Damage: 0 as short}, villagebox: {id: \"villagebox:village_book\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"villagebox\"}, Damage: 0 as short}, extrautils2: {id: \"extrautils2:Book\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"extrautils2\"}, Damage: 0 as short}, environmentaltech: {id: \"environmentaltech:digital_guide\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"environmentaltech\"}, Damage: 0 as short}, vc: {id: \"vc:guidebook_main\", Count: 1 as byte, tag: {\"akashictome:definedMod\": \"vc\"}, Damage: 0 as short}}}"
                 //},
                 {
-                    // You can also specify an 'otherwise' which will be matched and applied if the original drop isn't matched:
                     type: "setBlockDrops",
-                    what: "substratum:ore:8",
+                    what: "base:aluminum.ore",
                     replace: true,
                     drops: [
                         {
-                            what: "substratum:nugget:19",
+                            what: "quadrum:ore_rock",
                             min: 1,
-                            max: 1,
-                            chance: 1
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "base:nickel.ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "quadrum:ore_rock:1",
+                            min: 1,
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "minecraft:iron_ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "survivalist:rock_ore:0",
+                            min: 1,
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "minecraft:gold_ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "survivalist:rock_ore:1",
+                            min: 1,
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "base:copper.ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "survivalist:rock_ore:2",
+                            min: 1,
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "base:lead.ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "survivalist:rock_ore:4",
+                            min: 1,
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "base:silver.ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "survivalist:rock_ore:5",
+                            min: 1,
+                            max: 2
+                        }
+                    ]
+                },
+                {
+                    type: "setBlockDrops",
+                    what: "base:tin.ore",
+                    replace: true,
+                    drops: [
+                        {
+                            what: "survivalist:rock_ore:3",
+                            min: 1,
+                            max: 2
                         }
                     ]
                 }

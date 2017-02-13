@@ -1,4 +1,8 @@
 {
+  "ftbu": {
+    "render_badges": true,
+    "journeymap_overlay": true
+  },
   "sidebar_button": {
     "ftbu": {
       "guide": true,
@@ -29,8 +33,6 @@
       "enable_chunk_selector_depth": true
     },
     "action_buttons_on_top": true,
-    "render_badges": true,
-    "journeymap_overlay": true,
     "item_ore_names": false
   }
 }

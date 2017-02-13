@@ -11,8 +11,6 @@ Cauldron.add(<minecraft:torch> * 2, null, [<minecraft:stick>, <ore:coal>]);
 Cauldron.add(<minecraft:torch> * 2, null, [<minecraft:stick>, <ore:charcoal>]);
 Cauldron.add(<minecraft:cobblestone> * 1, null, [<survivalist:rock> * 6]);
 Cauldron.add(<minecraft:cobblestone> * 1, null, [<survivalist:rock> * 6]);
-Cauldron.add(<imc:item_cooked_squid> * 1, null, [<imc:item_raw_squid>]);
-Cauldron.add(<imc:item_cooked_horse> * 1, null, [<imc:item_raw_horse>]);
 
 Crucible.add(<minecraft:cobblestone> * 1, null, [<survivalist:rock> * 4]);
 Crucible.add(<minecraft:torch> * 4, null, [<minecraft:stick>, <ore:coal>]);
@@ -29,7 +27,9 @@ recipes.remove(<betterwithmods:material:8>);
 recipes.remove(<betterwithmods:material:32>);
 recipes.remove(<betterwithmods:material:33>);
 recipes.remove(<betterwithmods:material:34>);
-
+recipes.remove(<betterwithmods:gravel_pile>);
+recipes.remove(<betterwithmods:dirt_pile>);
+recipes.remove(<betterwithmods:sand_pile>);
 
 for i, shear in shears {
 	recipes.addShapeless(<betterwithmods:material:8>, [<betterwithmods:material:33>, shear.transformDamage()]);
@@ -51,15 +51,15 @@ recipes.remove(<minecraft:planks:5> * 3, <betterwithmods:debarked_new:1>);
 
 // Potions ?
 
-var steelPlate = <immersiveengineering:metal:38>;
-var blastBrick = <immersiveengineering:stoneDecoration:1>;
+val steelPlate = <immersiveengineering:metal:38>;
+val blastBrick = <immersiveengineering:stoneDecoration:1>;
 
 // Anvil
-recipes.remove(<immersiveengineering:stoneDecoration:2>);
-SteelAnvil.addShaped(<immersiveengineering:stoneDecoration:2>, [[steelPlate, steelPlate, steelPlate, null],
-																[steelPlate, blastBrick, steelPlate, null],
-																[steelPlate, steelPlate, steelPlate, null],
-																[null, null, null, null]]);
+//recipes.remove(<immersiveengineering:stoneDecoration:2>);
+//SteelAnvil.addShaped(<immersiveengineering:stoneDecoration:2>, [[steelPlate, steelPlate, steelPlate, null],
+//																[steelPlate, blastBrick, steelPlate, null],
+//																[steelPlate, steelPlate, steelPlate, null],
+//																[null, null, null, null]]);
 
 
 
